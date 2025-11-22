@@ -1,0 +1,79 @@
+{
+  "poland": {
+    "must_include_sections": [
+      "admission_ref",
+      "funding_plan",
+      "post_study_plan"
+    ],
+    "funds": {
+      "window_days": 90,
+      "bank_statement_months": 6
+    }
+  },
+  "uk": {
+    "must_include_sections": [
+      "CAS",
+      "funding_9months",
+      "course_fit"
+    ],
+    "funds": {
+      "window_days": 31,
+      "maintenance_months": 9
+    }
+  },
+  "usa": {
+    "must_include_sections": [
+      "I20",
+      "funding_first_year",
+      "post_study_plan"
+    ],
+    "funds": {
+      "window_days": 90
+    }
+  },
+  "ireland": {
+    "must_include_sections": [
+      "fee_receipt",
+      "funding_proof"
+    ],
+    "funds": {
+      "window_days": 90
+    }
+  },
+  "japan": {
+    "must_include_sections": [
+      "COE",
+      "funding_plan"
+    ],
+    "funds": {
+      "window_days": 180
+    }
+  },
+  "south_korea": {
+    "must_include_sections": [
+      "admission_certificate",
+      "funding_certificate"
+    ],
+    "funds": {
+      "window_days": 30
+    }
+  },
+  "russia": {
+    "must_include_sections": [
+      "invitation",
+      "tuition_receipt"
+    ],
+    "funds": {
+      "window_days": 90
+    }
+  },
+  "eu_general": {
+    "must_include_sections": [
+      "admission",
+      "funding"
+    ],
+    "funds": {
+      "window_days": 90
+    }
+  }
+}
