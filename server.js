@@ -24,7 +24,7 @@ app.get("/", (req, res) => {
 // ----------------------------
 app.post("/outline", async (req, res) => {
   try {
-    const prompt = `Create a detailed SOP outline for the following data:\n\n${JSON.stringify(req.body, null, 2)}`;
+    const prompt = Create a detailed SOP outline for the following data:\n\n${JSON.stringify(req.body, null, 2)};
 
     const ai = await client.responses.create({
       model: "gpt-4.1",
@@ -42,7 +42,7 @@ app.post("/outline", async (req, res) => {
 // ----------------------------
 app.post("/generate", async (req, res) => {
   try {
-    const prompt = `Write a full professional SOP based on this data:\n\n${JSON.stringify(req.body, null, 2)}`;
+    const prompt = Write a full professional SOP based on this data:\n\n${JSON.stringify(req.body, null, 2)};
 
     const ai = await client.responses.create({
       model: "gpt-4.1",
