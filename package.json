@@ -1,6 +1,6 @@
 {
-  "name": "prephires-backend-sop",
-  "version": "1.0.0",
+  "name": "sopai-backend",
+  "version": "2.0.0",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -9,7 +9,7 @@
     "express": "^4.18.2",
     "cors": "^2.8.5",
     "body-parser": "^1.20.2",
-    "openai": "^4.69.0",
+    "openai": "^4.52.7",
     "dotenv": "^16.3.1"
   }
 }
